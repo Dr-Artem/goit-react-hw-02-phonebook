@@ -56,6 +56,7 @@ export class App extends Component {
 
     render() {
         const filteredPerson = this.getFilteredPerson();
+        // some test text
         return (
             <div className={style.main_section}>
                 <h1>Phonebook</h1>
